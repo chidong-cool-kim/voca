@@ -1,0 +1,105 @@
+body {
+    height: 100vh;
+    width: 100%;
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+.border-box {
+    display: flex;
+    flex-direction: column; 
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 200px;
+    height: 250px;
+    justify-content: center; 
+    align-items: center;
+    padding-top:20px;
+    border:none;
+}
+
+img {
+    height: 200px;
+    width: 170px;
+    border: none;
+}
+
+.notskyblue {
+    color: rgb(92, 58, 33);
+    font-size: 18px;
+    
+}
+
+.name_1 {
+    font-family: 'Futura PT', 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-top:3px;
+}
+
+.name_2 {
+    font-family: 'Futura PT', 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-top:5px;
+}
+
+.brown {
+    margin-top:-0px;
+    border:1px solid black;
+    width:200px;
+    height:300px;
+    color:black;
+    font-size:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center; 
+    align-items:Center;
+    text-align:Center;
+    border:none;
+}
+
+.img-5{
+    width:190px;
+    height:180px;
+    margin-bottom:10px;
+    margin-top:-50px;
+}
+
+.price {
+    margin-top:-100px;
+}
+
+.color_1{
+    color:#333333
+}
+
+
+.position {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.color_2{
+    color:#cc9966;
+    margin-bottom:-30px;
+}
+
+.color_3{
+    color: #cc3333;
+}
+
+.div_5 {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background-color:white;
+    height:300px;
+    border:1px solid black;
+    border-radius:20px;
+}
