@@ -54,3 +54,27 @@ body {
     height:120px;
     margin-top:-3px;
 }
+
+@media screen and (min-width: 500px) {
+    .position_5{
+        border:1px solid black;
+        width: 177%;
+        height: 130px;
+        display:flex;
+        justify-content:space-evenly;
+        align-items:center;
+        background-color: rgb(249, 249, 249);
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 499px) {
+    .position_5{
+        border:1px solid black;
+        width: 263%;
+        height: 130px;
+        display:flex;
+        justify-content:space-evenly;
+        align-items:center;
+        background-color: rgb(249, 249, 249);
+    }
+}
