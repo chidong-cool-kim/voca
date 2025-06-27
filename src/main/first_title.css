@@ -26,10 +26,11 @@
   }
   
   .position_3 {
-    border:1px solid black;
-    width:100%;
-    height:500px;
-    background-color:rgb(253, 253, 246);  
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(253, 253, 246);
   }
   
   .fuck {
@@ -44,7 +45,7 @@
   
   .img_1 {
     margin-left:470px;
-    margin-top:-50px;
+    margin-top:-150px;
     height:500px; 
     width:370px;
   }
@@ -108,6 +109,104 @@
     margin-top: -20px; /* p-1과 딱 붙게 설정 */
     background-color: rgb(253, 249, 246);  
   }
+
+  @media screen and (min-width: 500px) {
+  .position_2 {
+    border: 1px solid black;
+    width: 177%;
+    height: 500px;
+    background-color: rgb(253, 249, 246);  
+    display:flex;
+    flex-direction:column;
+    border:none;
+  }
+
+  .position_3 {
+    display: flex;
+    flex-direction: column;
+    width: 177%;
+    min-height: 100vh;
+    background-color: rgb(253, 253, 246);
+  }
+
+  .img_1 {
+    margin-left:370px;
+    margin-top:-151px;
+    height:500px; 
+    width:370px;
+  }
+
+  .img_2 {
+    margin-top:500px;
+  }
+
+  .login {
+    width:130px;
+    height:40px;
+    margin-left:1100px;
+    padding-left:50px;
+    margin-top:-140px;
+    border:none;
+    background-color:rgb(259, 249, 246);  
+    font-size:17px;
+  }
+
+    .p-1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-top: -350px; /* 기존 값 유지 */
+    margin-left: 255px; /* 기존 값 유지 */
+    margin-bottom: 10px; /* p-2와의 간격 조정 */
+  }
+  
+  .p-2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-left: 255px; /* 기존 값 유지 */
+    margin-top: -20px; /* p-1과 딱 붙게 설정 */
+  }
+
+    .p-3 {
+    width:200px;
+    height:40px;
+    margin-left: 255px; /* 기존 값 유지 */
+    margin-top: -20px; /* p-1과 딱 붙게 설정 */
+    background-color: rgb(253, 249, 246);  
+  }
+}
+
+  @media screen and (min-width: 0px) and (max-width: 499px) {
+  .position_2 {
+    border: 1px solid black;
+    width: 265%;
+    height: 500px;
+    background-color: rgb(253, 249, 246);  
+    display:flex;
+    flex-direction:column;
+    border:none;
+  }
+
+  .position_3 {
+    display: flex;
+    flex-direction: column;
+    width: 262%;
+    min-height: 100vh;
+    background-color: rgb(253, 253, 246);
+  }
+
+  .login {
+    width:130px;
+    height:40px;
+    margin-left:1100px;
+    padding-left:50px;
+    margin-top:-140px;
+    border:none;
+    background-color:rgb(259, 249, 246);  
+    font-size:17px;
+  }
+}
+
+
   
   
   
